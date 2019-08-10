@@ -31,6 +31,8 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/
 
 Using a Tensorflow 2.0, I constructed a neural network for categorical classificiation with an Adam optimizer. The data had a number of null values and data types that needed to be changed, also the distribution of the data had large relative min/maxes, so I normalized some of the columns in the data using a lambda function.
 
+## Results
+
 The results were subpar for categorical classification, mostly attributed to only have 14 features and a small dataset (~300 paitents with complete metrics). When I changed the model to a binary classification problem, the results improved. 
 
 In other words, when I changed the problem from "Does the patient have heart disease and what kind?" to just "Does the patient have heart disease?", accuracy improved to around 77%, which is still subpar for a diagnostic tool. 
