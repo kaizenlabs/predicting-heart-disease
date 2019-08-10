@@ -33,7 +33,9 @@ Using a Tensorflow 2.0, I constructed a neural network for categorical classific
 
 ## Results
 
-The results were subpar for categorical classification, mostly attributed to only have 14 features and a small dataset (~300 paitents with complete metrics). When I changed the model to a binary classification problem, the results improved. 
+The results were subpar for categorical classification, mostly attributed to only have 14 features and a small dataset (~300 paitents with complete metrics). Only around a 70% accuracy.
+
+When I changed the model to a binary classification problem, the results improved. 
 
 In other words, when I changed the problem from "Does the patient have heart disease and what kind?" to just "Does the patient have heart disease?", accuracy improved to around 77%, which is still subpar for a diagnostic tool. 
 
